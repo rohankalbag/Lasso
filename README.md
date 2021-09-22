@@ -5,7 +5,7 @@
 
 Operating System Supported - Linux (Ubuntu)
 
-The source code to a game was was provided and features had to be added and enhancements had to be made to the provided code in order to get an AA grade in the course.
+The source code to a game was was provided and features had to be added and enhancements had to be made to the provided code in order to earn an AA grade in the course.
 
 ### Enhancements made:
 
