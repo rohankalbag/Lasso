@@ -5,7 +5,7 @@
 
 Operating System Supported - Linux (Ubuntu)
 
-The source code to a game was was provided and features had to be added and enhancements had to be made to the provided code in order to earn an AA grade in the course.
+The source code to a game was was provided and features had to be added and enhancements had to be made to the provided code in order to earn an **AA** grade in the course.
 
 ### Enhancements made:
 
@@ -21,4 +21,6 @@ The source code to a game was was provided and features had to be added and enha
 
 - Introduced feature of leaderboards the players names and scores are updated after each game, sorted in descending order in the file leaderboards.dat.
 
-This project was succesfully accepted and I was awarded the AA grade for this course.
+The various files and a video demonstration for the same can be found <a href="https://github.com/rohankalbag/Lasso/tree/main/Lasso">here</a> 
+
+This project was succesfully accepted and I was awarded the **AA** grade for this course.
