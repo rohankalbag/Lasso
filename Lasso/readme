@@ -1,0 +1,72 @@
+LASSO - A GAME MODIFIED AND REDESIGNED BY ROHAN RAJESH KALBAG 
+	Roll no - 20D170033
+
+Video Link:
+https://drive.google.com/file/d/1MQoVMLSHhtAvJrVUPp0Zozho2exj7QH3/view?usp=sharing
+
+Instructions to User: 
+
+1) The instructions regarding the game and keys can be found while playing the game also, keep all these files in the same directory and use terminal in the same folder.
+
+2)The game is based on lasso used by the cowboys to catch their herd and cattle in western countries. The game has a lasso which is a red rope that can be made to move towards the coins.
+
+Commands in the terminal
+s++ lasso.cpp
+./a.out
+
+3)First you will be prompted to enter your name, enter it using the terminal opened
+
+4)You will have an option to start the game using key 'a' on the terminal.
+
+5)You will have an option to view instructions i.e this readme file, using key 'b' on the terminal. 
+
+6)You will also have an option to view the leaderboards using key 'c' on the terminal.
+
+7) Start the game using 'a' a canvas will open up.
+
+8) Do not click this canvas when the coins and bombs become visible this may lead to an exception on some devices with Ubuntu OS and NVIDIA graphics. The exception faced is 
+" Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  101 (X_GetKeyboardMapping)
+  Value in failed request:  0x1
+  Serial number of failed request:  6289
+  Current serial number in output stream:  6289 "
+
+9) This can be avoided however by not clicking on this canvas while the game is running, if u wish to select or move the canvas window do so by using the title bar of the window.
+
+10) You have three lives and when your lives become zero the game is over.
+
+11) Coins are green and Bombs are black. If you catch a bomb your lives get decremented by 1 and if you catch a coin increment your score by 1.
+
+12) The aim of the game is to catch as many coins before the lives become zero.
+
+13) select the canvas by clicking the title bar and then use the following keys to control the lasso by entering commands in the cmd: terminal using the keyboard.
+'t' : to throw the lasso
+'l' : to reel in the lasso and to grab any coin and bomb inside the bigger red circle. priority is given to bomb i.e if a bomb and coin are inside when u loop the lasso the bomb is given preference so beware the case when a bomb and coin is inside the same red circle.
+
+Note : your lasso can hold only one object when you yank it so if u loop in two coins or two bombs when you yank the lasso only one coin or one bomb is reeled in  
+
+'y' : to yank the lasso that is retain the caught coin or bomb
+'q' : to quit the game and return to main menu
+'[',']': to change the orientation angle of the lasso before throwing it
+'-','=': to change the speed of the lasso
+
+14) when your lives become zero you will be redirected to the home page and your final score will be displayed. You can again play entering 'a', or you can enter 'c' to view the modified leaderboards with your scores.
+
+15) To finally terminate the game from main menu press 'q'
+
+Note: if leaderboards.dat is deleted new copy will be created by the program, however all the data stored in the leaderboards will be lost!
+
+Enhancements made:
+1) Developed a user friendy GUI for user to access various features, this can be used to play the game, view instructions, view the leaderboards, made using initCanvas() from simplecpp
+
+2) Added feature of lives, the user is given 3 lives at the start and after the lives become zero the game terminates and displays the user's score and Game Over message.
+
+3) Added the feature of bomb, bomb is a sprite that on catching with lasso deducts 1 life.
+
+4) Increased the number of coins from 1 to (4 coins + 4 bombs).
+
+5) Modified the bombs and coins in such a way that they follow a random path and get resetted randomly after exiting the playable area (earlier the coin would just go in a straight line repeatedly)
+
+6) Introduced feature of leaderboards the players names and scores are updated after each game, sorted in descending order in the file leaderboards.dat.
+
+
