@@ -1,6 +1,6 @@
 # Lasso
 
-## Course Project - CS 101 - Computer Programming and Application - Autumn Semester 2020 - Indian Institute of Technology Bombay 
+## Course Project - CS 101 - Computer Programming and Utilization - Autumn Semester 2020 - Indian Institute of Technology Bombay 
 ### Course Instructor - Prof. Bhaskaran Raman 
 
 Operating System Supported - Linux (Ubuntu)
